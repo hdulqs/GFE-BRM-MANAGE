@@ -4,7 +4,7 @@ require(['jquery','avalon'],function($,avalon){
     //$(".cashIn").click(function(){   //点击载入
     $(function(){   //直接载入
             $.ajax({
-                    url: "http://localhost/guoren-jiaoyisuo/1.json",
+                    url: "http://localhost/goopalMarketBack/1.json",
                     type:"post",
                     dataType: "json",
                     cache: true,
